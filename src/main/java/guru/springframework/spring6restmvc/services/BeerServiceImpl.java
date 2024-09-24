@@ -80,6 +80,7 @@ public class BeerServiceImpl implements BeerService {
                 .createdDate(LocalDateTime.now())
                 .updateDate(LocalDateTime.now())
                 .beerName(beer.getBeerName())
+                .version(beer.getVersion())
                 .beerStyle(beer.getBeerStyle())
                 .quantityOnHand(beer.getQuantityOnHand())
                 .upc(beer.getUpc())
