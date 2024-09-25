@@ -81,7 +81,5 @@ public class CustomerServiceImpl implements CustomerService {
 
         Customer existing = customerMap.get(customerId);
         existing.setName(customer.getName());
-
-        customerMap.put(existing.getId(), existing);
     }
 }
